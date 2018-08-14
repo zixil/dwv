@@ -1,4 +1,4 @@
-dwv.gui.getElement = dwv.gui.base.getElement;
+dwv.gui = dwv.gui.base;
 var addDataLine = (id, fileroot) => {
     var mainDiv = document.getElementById("data-lines");
 
