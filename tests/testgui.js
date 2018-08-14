@@ -18,7 +18,7 @@ var addDataLine = (id, fileroot) => {
         "containerDivId": id,
         "skipLoadUrl": true
     };
-    var url = "../data/" + fileroot + ".dcm";
+    var url = "data/" + fileroot + ".dcm";
     var app = new dwv.App();
     app.init(config);
     // display loading time
